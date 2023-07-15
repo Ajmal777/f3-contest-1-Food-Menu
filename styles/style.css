@@ -1,0 +1,20 @@
+html{
+    background-color: #111315;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    margin: 0;
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}

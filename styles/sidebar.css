@@ -1,0 +1,34 @@
+aside{
+    background: #0C0E10;
+    width: 20%;
+    height: auto;
+}
+ol{
+    padding-left: 20px;
+    margin: 0;
+}
+h4, p{
+    margin: 0;
+}
+.logo > img {
+    width: 100%;
+    height: auto;
+}
+.brand-slogan{
+    align-items: center;
+}
+.brand-slogan > .slogan{
+    color: #FF2424;
+}
+.section{
+    border-top: 1px solid #1C2025;
+    padding: 15px;
+}
+.section, .brand-slogan{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.section > h4{
+    align-self: center;
+}
